@@ -121,3 +121,49 @@ body{
   margin: 0;
   padding: 0;  
 }
+.profile-link {
+    margin-left: auto;
+    margin-right: 38px;
+    margin-top: 20px;
+
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: white;
+    border-radius: 50%;
+    overflow: hidden;
+
+    position: relative;
+    z-index: 1000;
+
+    cursor: pointer;
+    text-decoration: none;
+    flex-shrink: 0;
+    transition: 0.3s;
+}
+
+.profile-link img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.profile-link:hover {
+    transform: scale(1.08);
+    box-shadow: 0 4px 12px rgba(0, 80, 160, 0.2);
+}
+
+.profile-icon {
+    font-size: 23px;
+    color: #0878c9;
+}
+
+.profile-link:hover {
+    background: #cce7ff;
+    transform: scale(1.08);
+}
