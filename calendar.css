@@ -1,0 +1,77 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #d9edff, #f5faff);
+}
+
+/* Calendar box */
+.calendar-box {
+    width: 350px;
+    margin: 50px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 75, 140, 0.15);
+    text-align: center;
+}
+
+/* Calendar title */
+.calendar-box h2 {
+    color: #0875c5;
+    margin-bottom: 25px;
+}
+
+/* Calendar days */
+.calendar-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.calendar-days div {
+    padding: 10px 0;
+    border-radius: 7px;
+    color: #244761;
+    font-size: 13px;
+}
+
+/* Weekdays */
+.calendar-days div:nth-child(-n+7) {
+    color: #0875c5;
+    font-weight: bold;
+}
+
+/* Hover on dates */
+.calendar-days div:not(:nth-child(-n+7)):hover {
+    background-color: #0875c5;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Today's date */
+.calendar-days .today {
+    background-color: #0875c5;
+    color: white;
+    font-weight: bold;
+}
+
+/* Back to Home button */
+.calendar-box a {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 10px 20px;
+    background-color: #0875c5;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+/* Button hover */
+.calendar-box a:hover {
+    background-color: #064887;
+    transform: translateY(-3px);
+}
+

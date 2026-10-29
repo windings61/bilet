@@ -167,3 +167,82 @@ body{
     background: #cce7ff;
     transform: scale(1.08);
 }
+
+
+.calendar-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-left: 10px;
+    padding: 10px 15px;
+    background-color: white;
+    color: #0875c5;
+    border: 2px solid #0875c5;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+
+.calendar-button img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+
+
+.calendar-button:hover {
+    background-color: #0875c5;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0, 75, 140, 0.2);
+}
+
+
+.right-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+    margin: 15px 30px 15px 0;
+}
+
+
+.calendar-button,
+.profile-button {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+
+.calendar-button img,
+.profile-button img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    display: block;
+}
+
+
+.calendar-button:hover,
+.profile-button:hover {
+    background-color: #d9edff;
+    transform: scale(1.08);
+    transition: 0.3s;
+}
