@@ -1,6 +1,7 @@
 
 body {
     margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
     background: linear-gradient(to right, #d9edff, #f5faff);
 }
@@ -73,5 +74,24 @@ body {
 .calendar-box a:hover {
     background-color: #064887;
     transform: translateY(-3px);
+}
+        .we{
+    background-color: #05203C;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 14px 26px;
+    display: flex;
+}
+.wer{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 40px;
+    color: #FFF;
+    margin: 20px 0 0 0 20px;
+    display: flex;
+}
+a{
+    color: inherit;
+    text-decoration: none;
 }
 

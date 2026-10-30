@@ -43,7 +43,13 @@
   display: block;
   transition: transform 0.3s ease;
 }
-
+.w2{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
 .q:hover .w {
   transform: scale(1.03);                                  
 }
@@ -98,12 +104,14 @@
     width: 100%;
     box-sizing: border-box;
     padding: 14px 26px;
+    display: flex;
 }
 .wer{
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     font-size: 40px;
     color: #FFF;
     margin: 20px 0 0 0 20px;
+    display: flex;
 }
 a{
     text-decoration: none;
@@ -245,4 +253,8 @@ body{
     background-color: #d9edff;
     transform: scale(1.08);
     transition: 0.3s;
+}
+.ccv2{
+    padding: 16px 20px 35px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
